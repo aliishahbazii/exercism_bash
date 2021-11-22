@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="40147b16-3f82-4972-8e54-07084e282a98" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1ra7i6Y0icQwkvAKSFlf4G8sZMv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showURL" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/mbz" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/matching-brackets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Shell Script.grep_test.sh">
+    <configuration name="error_handling.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/error-handling/error_handling.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/error-handling" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grep_test.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/grep/grep_test.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/grep" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hamming.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/hamming/hamming.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/hamming" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="raindrops.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/raindrops/raindrops.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/raindrops" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="resistor_color_duo.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/resistor-color-duo/resistor_color_duo.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/resistor-color-duo" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.grep_test.sh" />
+        <item itemvalue="Shell Script.hamming.sh" />
+        <item itemvalue="Shell Script.raindrops.sh" />
+        <item itemvalue="Shell Script.resistor_color_duo.sh" />
+        <item itemvalue="Shell Script.error_handling.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40147b16-3f82-4972-8e54-07084e282a98" name="Default Changelist" comment="" />
+      <created>1619202470525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619202470525</updated>
+      <workItem from="1619202472040" duration="2961000" />
+      <workItem from="1619297982108" duration="1742000" />
+      <workItem from="1619466433584" duration="3372000" />
+      <workItem from="1619504833785" duration="4731000" />
+      <workItem from="1619556141728" duration="4015000" />
+      <workItem from="1619560293073" duration="595000" />
+      <workItem from="1619624537109" duration="2182000" />
+      <workItem from="1619635403610" duration="8833000" />
+      <workItem from="1619783031170" duration="619000" />
+      <workItem from="1619946386815" duration="1182000" />
+      <workItem from="1619947597514" duration="4386000" />
+      <workItem from="1619961099737" duration="9429000" />
+      <workItem from="1619984917248" duration="2787000" />
+      <workItem from="1620060581897" duration="1162000" />
+      <workItem from="1620113126799" duration="4825000" />
+      <workItem from="1620125653694" duration="5630000" />
+      <workItem from="1620407577897" duration="40000" />
+      <workItem from="1624530813848" duration="1214000" />
+      <workItem from="1626237324264" duration="14000" />
+      <workItem from="1636652962686" duration="403000" />
+      <workItem from="1636653423271" duration="4209000" />
+      <workItem from="1637258445895" duration="4009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="186" width="480" height="394" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620130809088">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state x="438" y="186" width="480" height="394" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.705@0.27.1366.705" timestamp="1620130809088" />
+    <state x="394" y="109" width="562" height="548" key="#raindrops_test.sh" timestamp="1619635502069">
+      <screen x="0" y="27" width="1360" height="741" />
+    </state>
+    <state x="394" y="109" width="562" height="548" key="#raindrops_test.sh/0.27.1360.741/0.768.1366.768@0.27.1360.741" timestamp="1619635502069" />
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl" timestamp="1620407615537">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state x="464" y="137" key="FileChooserDialogImpl/0.27.1360.705/0.768.1366.768@0.27.1360.705" timestamp="1619684032489" />
+    <state x="466" y="888" key="FileChooserDialogImpl/0.27.1360.741/0.768.1366.768@0.768.1366.768" timestamp="1619645188489" />
+    <state x="466" y="137" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.705@0.27.1366.705" timestamp="1620407615537" />
+    <state x="194" y="27" key="SettingsEditor" timestamp="1620125946811">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state x="194" y="27" key="SettingsEditor/0.27.1366.705@0.27.1366.705" timestamp="1620125946811" />
+    <state width="501" height="410" key="SwitcherDM" timestamp="1619961892447">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state width="498" height="430" key="SwitcherDM/0.27.1360.741/0.768.1366.768@0.27.1360.741" timestamp="1619948175748" />
+    <state width="498" height="445" key="SwitcherDM/0.27.1360.741/0.768.1366.768@0.768.1366.768" timestamp="1619507686804" />
+    <state width="501" height="410" key="SwitcherDM/0.27.1366.705@0.27.1366.705" timestamp="1619961892447" />
+    <state x="480" y="27" width="394" height="705" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1620131087009">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state x="478" y="27" width="394" height="705" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1360.741/0.768.1366.768@0.27.1360.741" timestamp="1619950824657" />
+    <state x="480" y="27" width="394" height="705" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.705@0.27.1366.705" timestamp="1620131087009" />
+    <state x="389" y="135" width="587" height="488" key="find.popup" timestamp="1620127636756">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state x="389" y="886" width="587" height="532" key="find.popup/0.27.1360.741/0.768.1366.768@0.768.1366.768" timestamp="1619643388465" />
+    <state x="389" y="135" width="587" height="488" key="find.popup/0.27.1366.705@0.27.1366.705" timestamp="1620127636756" />
+    <state x="346" y="158" key="run.anything.popup" timestamp="1620129715445">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state x="344" y="165" key="run.anything.popup/0.27.1360.741/0.768.1366.768@0.27.1360.741" timestamp="1619950079766" />
+    <state x="346" y="158" key="run.anything.popup/0.27.1366.705@0.27.1366.705" timestamp="1620129715445" />
+    <state x="346" y="53" width="672" height="678" key="search.everywhere.popup" timestamp="1620061274976">
+      <screen x="0" y="27" width="1366" height="705" />
+    </state>
+    <state x="346" y="53" width="672" height="678" key="search.everywhere.popup/0.27.1366.705@0.27.1366.705" timestamp="1620061274976" />
+  </component>
+</project>
