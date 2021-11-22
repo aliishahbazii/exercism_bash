@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-<<<<<<< HEAD
 # The following comments should help you get started:
 # - Bash is flexible. You may use functions or write a "raw" script.
 #
@@ -23,19 +22,16 @@
 #   main "$@"
 #
 # *** PLEASE REMOVE THESE COMMENTS BEFORE SUBMITTING YOUR SOLUTION ***
-=======
-function bob() {
-  question="$1"
-  shopt -s extglob
-  case $question in
-  *[![:lower:]]* ) echo "Whoa, chill out!" ;;
-
-  esac
-
-  shopt -u extglob
-
+function reverse() {
+  input="$1"
+  length=${#input}
+  out=""
+  for ((i = 0; i < length; i++)); do
+    token=${input:(-1)}
+    input=${input::-1}
+    out=$out$token
+  done
+  echo "$out"
 }
 
-bob "$@"
-#bob "Tom-ay-to, tom-aaaah-to."
->>>>>>> 584060d43a30a3600ec7879b6e3f1314dac9f838
+reverse "$@"
