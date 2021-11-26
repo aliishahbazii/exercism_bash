@@ -11,14 +11,22 @@ load bats-extra
 }
 
 @test "shouting" {
+<<<<<<< HEAD
+  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+=======
   #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
+>>>>>>> 584060d43a30a3600ec7879b6e3f1314dac9f838
   run bash bob.sh 'WATCH OUT!'
   assert_success
   assert_output "Whoa, chill out!"
 }
 
 @test "shouting gibberish" {
+<<<<<<< HEAD
+  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+=======
   #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
+>>>>>>> 584060d43a30a3600ec7879b6e3f1314dac9f838
   run bash bob.sh 'FCECDFCAAB'
   assert_success
   assert_output "Whoa, chill out!"
@@ -67,7 +75,11 @@ load bats-extra
 }
 
 @test "shouting numbers" {
+<<<<<<< HEAD
+  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+=======
   #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
+>>>>>>> 584060d43a30a3600ec7879b6e3f1314dac9f838
   run bash bob.sh '1, 2, 3 GO!'
   assert_success
   assert_output "Whoa, chill out!"
@@ -88,14 +100,22 @@ load bats-extra
 }
 
 @test "shouting with special characters" {
+<<<<<<< HEAD
+  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+=======
   #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
+>>>>>>> 584060d43a30a3600ec7879b6e3f1314dac9f838
   run bash bob.sh 'ZOMG THE %^*@#$(*^ ZOMBIES ARE COMING!!11!!1!'
   assert_success
   assert_output "Whoa, chill out!"
 }
 
 @test "shouting with no exclamation mark" {
+<<<<<<< HEAD
+  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+=======
   #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
+>>>>>>> 584060d43a30a3600ec7879b6e3f1314dac9f838
   run bash bob.sh 'I HATE THE DENTIST'
   assert_success
   assert_output "Whoa, chill out!"
@@ -187,7 +207,11 @@ load bats-extra
 
 # bash-specific tests
 @test "yelling a filename expansion" {
+<<<<<<< HEAD
+  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+=======
   #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
+>>>>>>> 584060d43a30a3600ec7879b6e3f1314dac9f838
   run bash bob.sh '*READ* !'
   assert_success
   assert_output "Whoa, chill out!"
