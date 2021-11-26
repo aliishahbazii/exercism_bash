@@ -4,7 +4,7 @@ load bats-extra
 # local version: 1.6.0.0
 
 @test "stating something" {
-  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh 'Tom-ay-to, tom-aaaah-to.'
   assert_success
   assert_output "Whatever."
@@ -25,21 +25,21 @@ load bats-extra
 }
 
 @test "asking a question" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh 'Does this cryogenic chamber make me look fat?'
   assert_success
   assert_output "Sure."
 }
 
 @test "asking a numeric question" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh 'You are, what, like 15?'
   assert_success
   assert_output "Sure."
 }
 
 @test "asking gibberish" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh 'fffbbcbeab?'
   assert_success
   assert_output "Sure."
@@ -81,7 +81,7 @@ load bats-extra
 }
 
 @test "question with no letters" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh '4?'
   assert_success
   assert_output "Sure."
@@ -109,14 +109,14 @@ load bats-extra
 }
 
 @test "non-letters with question" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh ':) ?'
   assert_success
   assert_output "Sure."
 }
 
 @test "prattling on" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh 'Wait! Hang on. Are you going to be OK?'
   assert_success
   assert_output "Sure."
@@ -158,7 +158,7 @@ load bats-extra
 }
 
 @test "ending with whitespace" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh 'Okay if like my  spacebar  quite a bit?   '
   assert_success
   assert_output "Sure."
@@ -194,7 +194,7 @@ load bats-extra
 }
 
 @test "asking a filename expansion" {
-  [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+  #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
   run bash bob.sh 'bob???'
   assert_success
   assert_output "Sure."

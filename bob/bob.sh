@@ -4,7 +4,8 @@ function bob() {
   question="$1"
   shopt -s extglob
   case $question in
-  *[![:lower:]]* ) echo "Whoa, chill out!" ;;
+    [[:upper]] & [^[:lower:]] ) echo "Whoa, chill out!" ;;
+    *\?+$ ) echo "Sure." ;;
 
   esac
 
